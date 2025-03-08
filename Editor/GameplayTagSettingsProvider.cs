@@ -22,19 +22,8 @@ namespace Diannara.GameplayTags.Editor
                 {
                     GameplayTagSettings settings = GameplayTagSettings.instance;
 
-                    Label titleLabel = new Label("Diannara's Gameplay Tags");
-                    titleLabel.style.fontSize = 20;
-                    titleLabel.style.unityFontStyleAndWeight = FontStyle.Bold;
-                    titleLabel.style.marginBottom = 10;
-                    titleLabel.style.marginLeft = 10;
-                    titleLabel.style.marginTop = 10;
-                    rootElement.Add(titleLabel);
-
-                    Label descriptionLabel = new Label("Define the tags that can be used in the game.");
-                    descriptionLabel.style.marginLeft = 10;
-                    descriptionLabel.style.marginBottom = 15;
-                    rootElement.Add(descriptionLabel);
-
+                    VisualTreeAsset visualTree = AssetDatabase.LoadAssetAtPath<VisualTreeAsset>("Assets/Diannara/GameplayTags/Editor/UI/GameplayTagSettings.uxml");
+                    visualTree.CloneTree(rootElement);
                 },
                 keywords = new HashSet<string>(new[] { "Diannara", "Gameplay", "Tags" })
             };

@@ -1,0 +1,60 @@
+.container {
+    padding: 10px;
+}
+
+.title {
+    font-size: 18px;
+    -unity-font-style: bold;
+    margin-bottom: 10px;
+}
+
+.description {
+    margin-bottom: 15px;
+}
+
+.validation-message {
+    color: rgb(255, 128, 128);
+    display: none;
+    margin-bottom: 5px;
+}
+
+.input-container {
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+
+.add-button {
+    margin-left: 5px;
+    align-self: flex-end;
+}
+
+.list-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.list-title {
+    -unity-font-style: bold;
+    margin-bottom: a5px;
+}
+
+.tag-list {
+    margin-top: 5px;
+    min-height: 100px;
+    flex-grow: 1;
+}
+
+.tag-item {
+    flex-direction: row;
+    align-items: center;
+    padding: 2px 5px;
+    margin-bottom: 2px;
+}
+
+.tag-label {
+    flex-grow: 1;
+}
+
+.delete-button {
+    width: 25px;
+}

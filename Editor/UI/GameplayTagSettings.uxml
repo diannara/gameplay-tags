@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="UnityEngine.UIElements" xsi:schemaLocation="UnityEngine.UIElements ../UIElementsSchema/UIElements.xsd">
+    <Style src="GameplayTagSettings.uss" />
+    <VisualElement class="container">
+        <Label name="titleLabel" text="Diannara Gameplay Tags" class="title" />
+        <Label text="Add gameplay tags in the format: Category.Subcategory.Name (e.g., Character.Status.Bleeding)" class="description" />
+        <Label name="validationMessage" class="validation-message" />
+        <VisualElement class="input-container">
+            <TextField name="tagInput" label="New Tag" />
+            <Button name="addButton" text="Add Tag" class="add-button" />
+        </VisualElement>
+        <VisualElement class="list-container">
+            <Label text="Current Tags:" class="list-title" />
+            <ListView name="tagListView" class="tag-list" />
+        </VisualElement>
+    </VisualElement>
+</UXML>

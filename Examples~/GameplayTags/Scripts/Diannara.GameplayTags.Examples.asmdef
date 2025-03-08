@@ -1,0 +1,16 @@
+{
+    "name": "Diannara.GameplayTags.Examples",
+    "rootNamespace": "Diannara.GameplayTags.Examples",
+    "references": [
+        "GUID:1dc27aed7593fcb44952c88a63293512"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

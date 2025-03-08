@@ -1,0 +1,19 @@
+{
+    "name": "Diannara.GameplayTags.Editor.Tests",
+    "rootNamespace": "Diannara.GameplayTags.Editor.Tests",
+    "references": [
+        "GUID:1dc27aed7593fcb44952c88a63293512",
+        "GUID:284833ef07ed2ec4a95601f7bb9cef48"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
